@@ -1,0 +1,13 @@
+body {
+  background-color:#01304b;
+  color: gray;
+  font-family: Helvetica, sans-serif, Arial;
+}
+
+a {
+  color:goldenrod;
+}
+
+li {
+  margin-bottom: 10px;
+}
