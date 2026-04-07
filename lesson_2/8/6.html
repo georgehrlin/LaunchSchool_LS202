@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+     div {
+      height: 300px;
+      width: 300px;
+     }
+
+     #red { background-color: #fcc; }
+
+     #blue {
+      background-color: #ccf;
+      border: 5px solid black;
+    }
+    </style>
+  </head>
+  <body>
+    <div id="red"></div><div id="blue"></div>
+  </body>
+</html>
+
+<!--
+Q: Why is the blue box a different size?
+A: The blue box has a different size to the red box because by default the value of box-sizing is content-box, so the 5px borders are added on top of the 300px * 300px content area of the blue box.
+-->
