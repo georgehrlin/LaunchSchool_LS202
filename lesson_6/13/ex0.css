@@ -1,0 +1,29 @@
+a {
+  color: #f00;
+}
+
+@media (max-width: 480px) {
+  a {
+    color: #06c;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  /* CSS for 1600px (or smaller) screens (and no printers!) */
+}
+
+@media screen and (min-width: 481px) {
+  /* CSS for tablets and larger */
+}
+
+@media screen and (min-width: 961px) {
+  /* CSS for small desktop and laptop screens and larger */
+}
+
+@media screen and (min-width: 1502px) {
+  /* CSS for large laptop and desktop displays */
+}
+
+@media print {
+  /* CSS for printers */
+}

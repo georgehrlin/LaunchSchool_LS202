@@ -1,0 +1,281 @@
+body {
+  font: normal 16px Helvetica, Arial, sans-serif;
+}
+
+section {
+  border: solid 1px black;
+  margin: auto;
+  width: 1000px;
+}
+
+article {
+  padding: 20px;
+}
+
+h1 {
+  color: #CA3519;
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+h2 {
+  color: #CA3519;
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+h3 {
+  color: #CA3519;
+  font-size: 16px;
+  margin: 20px 0;
+}
+
+p {
+  line-height: 35px;
+  margin-bottom: 25px;
+}
+
+nav.example_inline_elements {
+  border: dashed 2px black;
+  height: 80px;
+  width: 650px;
+  margin: 45px;
+}
+
+a.navigation {
+  color: white;
+  text-decoration: none;
+}
+
+a.black_font {
+  color: black;
+}
+
+div.inline_elements_examples {
+  line-height: 20px;
+  margin: 30px;
+}
+
+nav.margin a {
+  margin: 30px;
+}
+
+nav.padding a {
+  background-color: green;
+  color: white;
+  padding: 31px;
+}
+
+nav.floated {
+  height: 175px;
+}
+
+nav.floated a {
+  border: solid 3px darkgreen;
+  box-sizing: content-box;
+  float:left;
+  margin: 15px;
+  padding: 25px;
+}
+
+div.block_elements_1 {
+  background-color: dodgerblue;
+  color: white;
+}
+
+div.block_elements_2 {
+  background-color: green;
+  box-sizing: border-box;
+  color: white;
+  height: 60px;
+  padding: 20px;
+  margin: 20px;
+}
+
+div.block_elements_2 p {
+  line-height: 20px;
+  margin: 0;
+}
+
+div.block_elements_3 {
+  background-color: orangered;
+  color: white;
+  box-sizing: border-box;
+  width: 90px;
+}
+
+div.block_elements_3 p {
+  line-height: 1rem;
+}
+
+div.block_elements_4 {
+  background-color: orangered;
+  box-sizing: border-box;
+  color: white;
+  opacity: 40%;
+  margin: 20px;
+  padding: 20px;
+  height: 120px;
+  width: 180px;
+}
+
+.floating_block_elements_1 {
+  background-color: dodgerblue;
+  border: solid 1px red;
+  color: white;
+  float: left;
+}
+
+.floating_block_elements_2 {
+  background-color: orangered;
+  border: solid 1px red;
+  color: white;
+  float: right;
+}
+
+.floating_block_elements_3 {
+  background-color: orangered;
+  color: white;
+  float: left;
+  height: 70px;
+  width: 40%;
+}
+
+.floating_block_elements_4 {
+  background-color: dodgerblue;
+  color: white;
+  float: right;
+  height: 70px;
+  width: 50%;
+}
+
+.floating_block_elements_3 p,
+.floating_block_elements_4 p {
+  line-height: 20px;
+  margin: 25px;
+  text-align: center;
+}
+
+div.wrapper_floating_block_elements::after {
+  clear: both;
+  content: "";
+  display:block;
+  margin-bottom: 35px;
+}
+
+a.block_elements_5 {
+  background-color: dodgerblue;
+  box-sizing: border-box;
+  display: block;
+  height: 40px;
+  line-height: 20px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+div.inline_block_elements_1 {
+  margin: auto auto;
+}
+
+div.inline_block_elements_1 a {
+  background-color: dodgerblue;
+  box-sizing: border-box;
+  display: inline-block;
+  height: 60px;
+  width: 180px;
+  padding: 20px 30px;
+  margin: 20px 8px 25px;
+  text-align: center;
+}
+
+hr {
+  border-style: dashed;
+  margin: 0 20px;
+}
+
+h1.centered_title {
+  text-align: center;
+}
+
+.example_floats {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+div#floats_1 {
+  background-color: orangered;
+  float: left;
+  line-height: 100px;
+  height: 100px;
+  width: 50%;
+}
+
+div#floats_2 {
+  background-color: dodgerblue;
+  float: right;
+  line-height: 100px;
+  height: 100px;
+  width: 50%;
+}
+
+div#floats_3 {
+  background-color: green;
+  clear: both;
+  line-height: 50px;
+  height: 50px;
+}
+
+ul {
+  margin: 0 0 45px 40px;
+}
+
+li {
+  margin: 10px;
+}
+
+div#fixed {
+  background-color: dodgerblue;
+  border-radius: 8px;
+  color: white;
+  line-height: 80px;
+  text-align: center;
+  position: fixed;
+  bottom: 50px;
+  left: 35px;
+  height: 80px;
+  width: 220px;
+  z-index: 1;
+}
+
+div#relative {
+  background-color: orangered;
+  border-radius: 8px;
+  color: white;
+  line-height: 65px;
+  text-align: center;
+  position: relative;
+  top: 30px;
+  right: 90px;
+  height: 65px;
+  width: 325px;
+}
+
+div#wrapper_absolute_positioning {
+  position: relative;
+  z-index: 2;
+}
+
+div#absolute {
+  background-color: darkgreen;
+  border-radius: 8px;
+  color: white;
+  line-height: 80px;
+  text-align: center;
+  position: absolute;
+  left: 220px;
+  bottom: 118px;
+  height: 80px;
+  width: 200px;
+}

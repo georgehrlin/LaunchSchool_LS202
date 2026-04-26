@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="contact_form.css">
+  </head>
+  <body>
+    <form action="#" method="post">
+      <fieldset>
+        <dl>
+          <dt><label for="first_name">First Name</label></dt>
+          <dd><input type="text" name="first_name" id="first_name"></dd>
+
+          <dt><label for="last_name">Last Name</label></dt>
+          <dd><input type="text" name="last_name" id="last_name"></dd>
+
+          <dt><label for="email">Email Address</label></dt>
+          <dd><input type="email" name="email" id="email"
+                     placeholder="example@email.com"></dd>
+
+          <dt><label for="address1">Address</label></dt>
+          <dd id="address"><input type="text" name="address1" id="address1"></dd>
+          <dd><input type="text" name="address2" id="address2"></dd>
+
+          <dt><label for="city">City</label></dt>
+          <dd><input type="text" name="city" id="city"></dd>
+
+          <dt><label for="state">State</label></dt>
+          <dd>
+            <select name="state" id="state">
+              <option>AK</option>
+              <option>AL</option>
+              <option>AR</option>
+              <option>AZ</option>
+              <option>CA</option>
+              <option>CO</option>
+              <option>CT</option>
+              <option>DC</option>
+              <option>DE</option>
+              <option>FL</option>
+              <option>GA</option>
+              <option>HI</option>
+              <option>IA</option>
+              <option>ID</option>
+              <option>IL</option>
+              <option>IN</option>
+              <option>KS</option>
+              <option>KY</option>
+              <option>LA</option>
+              <option>MA</option>
+              <option>MD</option>
+              <option>ME</option>
+              <option>MI</option>
+              <option>MN</option>
+              <option>MO</option>
+              <option>MS</option>
+              <option>MT</option>
+              <option>NC</option>
+              <option>ND</option>
+              <option>NE</option>
+              <option>NH</option>
+              <option>NJ</option>
+              <option>NM</option>
+              <option>NV</option>
+              <option>NY</option>
+              <option>OH</option>
+              <option>OK</option>
+              <option>OR</option>
+              <option>PA</option>
+              <option>RI</option>
+              <option>SC</option>
+              <option>SD</option>
+              <option>TN</option>
+              <option>TX</option>
+              <option>UT</option>
+              <option>VA</option>
+              <option>VT</option>
+              <option>WA</option>
+              <option>WI</option>
+              <option>WV</option>
+              <option>WY</option>
+            </select>
+          </dd>
+
+          <dt><label for="zipcode">Zip</label></dt>
+          <dd><input type="text" name="zipcode" id="zipcode"
+                     placeholder="12345" minlength="5" maxlength="5"></dd>
+
+          <dt><p>Which of these colours do you like best?</p></dt>
+          <div class="favourite_colour">
+            <dd><input type="radio" name="favourite_colour" value="red" checked>Red</dd>
+            <dd><input type="radio" name="favourite_colour" value="orange">Orange</dd>
+            <dd><input type="radio" name="favourite_colour" value="yellow">Yellow</dd>
+            <dd><input type="radio" name="favourite_colour" value="green">Green</dd>
+            <dd><input type="radio" name="favourite_colour" value="blue">Blue</dd>
+            <dd><input type="radio" name="favourite_colour" value="indigo">Indigo</dd>
+            <dd><input type="radio" name="favourite_colour" value="violet">Violet</dd>
+          </div>
+
+          <dt><p>Which web technologies do you want to learn?</p></dt>
+          <div class="web_technology">
+            <dd><input type="checkbox" name="web_technology" value="html">HTML</dd>
+            <dd><input type="checkbox" name="web_technology" value="css">CSS</dd>
+            <dd><input type="checkbox" name="web_technology" value="javascript">JavaScript</dd>
+            <dd><input type="checkbox" name="web_technology" value="react">React</dd>
+            <dd><input type="checkbox" name="web_technology" value="ruby">Ruby</dd>
+            <dd><input type="checkbox" name="web_technology" value="python">Python</dd>
+            <dd><input type="checkbox" name="web_technology" value="nodejs">Node.js</dd>
+            <dd><input type="checkbox" name="web_technology" value="php">PHP</dd>
+          </div>
+
+          <dt>
+            <label for="comment">Comments</label>
+          </dt>
+          <dd>
+            <textarea id="comment" rows="6" cols="80"></textarea>
+          </dd>
+        </dl>
+        <input type="submit" name="send" value="Send">
+        <input type="reset">
+        <input type="hidden" name="date" value="2026-04-18">
+      </fieldset>
+    </form>
+  </body>
+</html>

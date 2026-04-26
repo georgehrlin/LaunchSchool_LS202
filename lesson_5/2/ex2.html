@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+     
+    </style>
+  </head>
+  <body>
+    <form action="/login" name="username">
+      <fieldset> <!-- Groups together form content as a set of related data -->
+        <input type="text" name="username">
+        <input type="password" name="password">
+      </fieldset>
+      <fieldset>
+        <input type="submit" value="Save">
+        <input type="submit" value="Forgot Password" formaction="/forgot">
+      </fieldset>
+      <fieldset>
+        <input type="text" name="city">
+        <input type="password" name="password">
+        <input type="submit" value="Save">
+      </fieldset>
+      <fieldset>
+        <label for="phone">Phone</label> <!-- Associates some identifying text with an input field -->
+        <input type="text" id="phone" name="phone_number">
+      </fieldset>
+      <label>
+        Phone <!-- Can also work as a container -->
+        <input type="text" name="phone">
+      </label>
+    </form>
+  </body>
+</html>

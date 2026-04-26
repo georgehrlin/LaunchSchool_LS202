@@ -1,0 +1,62 @@
+body {
+  font: normal 16px Helvetica, Arial, sans-serif;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 0 25% 0 25%;
+}
+dl {
+  margin: 0;
+}
+
+dt {
+  margin-bottom: 5px;
+}
+
+dd {
+  margin-bottom: 25px;
+  margin-left: 0;
+}
+
+input {
+  border: solid 1px #cecece;
+  border-radius: 0;
+}
+
+input[type="text"] {
+  height: 1.5rem;
+  width: 100%;
+}
+
+input[type="email"] {
+  height: 1.5rem;
+  width: 100%;
+}
+
+dd#address {
+  margin-bottom: 5px;
+}
+
+div {
+  margin-left: 5px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+div p {
+  margin: 16px 0;
+}
+
+div dd {
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+input[type="radio"] {
+  margin: 0;
+}
+
+input[type="checkbox"] {
+  margin: 0 2px 0 0;
+}

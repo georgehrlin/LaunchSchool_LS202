@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: white;
+  color: black;
+  font: normal 24px Helvetica, Arial, sans-serif;
+}
+
+header, h1 {
+  background-color: blue;
+  color: white;
+}
+
+header {
+  padding: 1rem;
+  text-align: center;
+}
+
+nav {
+  background-color: cyan;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  text-align: center;
+  width: 20%;
+}
+
+a {
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 1rem 0;
+  text-decoration: none;
+  width: 100%;
+}
+
+a:focus,
+a:hover {
+  background-color: blue;
+  color: yellow;
+}
+
+main {
+  display: flex;
+}
+
+article,
+aside {
+  padding: 0 1rem;
+}
+
+article {
+  flex: 2;
+}
+
+aside {
+  background-color: lightgreen;
+  flex: 1;
+}
+
+p {
+  margin: 1rem 0;
+}
+
+footer {
+  background-color: yellow;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row-reverse;
+}
+
+#copyright {
+  margin: 0 1rem;
+  display: flex;
+  align-items: center;
+  /* justify-content: flex-end; */
+}
+
+#logo {
+  background-color: orange;
+}
+
+img {
+  display: block;
+  height: 200px;
+}
+
+/*
+1. Get rid of all the spacing between first-level elements in <body> so they all sit next to each other
+2. Make <h1> fill up the space of <header>
+3. Adjust the orientation of <nav> or <ul> to horizontal
+4. Make <a> fill up the entire space of <li>
+5. Adjust the orientation of <aside> and <article> to vertical
+6. Change the ratios of the widths of <aside> and <article> to 1:2:1
+7. Switch the order of <div id="copyright"> and <div id="logo">
+8. Adjust the ratios of the widths of <div id="logo"> and <div id="copyright"> to 1:2
+*/

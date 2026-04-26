@@ -1,0 +1,81 @@
+<style>
+  input:required { background-color: yellow; }
+</style>
+<body>
+  <fieldset>
+    <label>
+      Phone
+      <input type="tel" name="phone" value="123-456-7890">
+      <!-- For most text-based input types, value assigns a default value -->
+    </label>
+  </fieldset>
+  <fieldset>
+    <!-- checkbox and radio types use value to set the value that will be submitted when the form submits -->
+    <!-- Browser defaults to name=on if no value is set explicitly -->
+    <label>
+      <input type="radio" name="color" value="red">
+      Red
+    </label>
+    <br>
+    <label>
+      <input type="radio" name="color" value="green">
+      Green
+    </label>
+    <br>
+    <label>
+      <input type="radio" name="color" value="blue" checked>
+      Blue
+    </label>
+  </fieldset>
+  <fieldset>
+    <input type="submit" value="Save">
+    <!-- button types use value to set the appearing label -->
+  </fieldset>
+  <fieldset>
+    <label>
+      Phone
+      <input type="tel" name="phone" size="10" maxlength="16">
+    </label>
+    <br>
+    <label>
+      Cell Phone
+      <input type="tel" name="cell-phone" size="20" maxlength="40">
+    </label>
+  </fieldset>
+  <fieldset>
+    <label>
+      Phone
+      <input type="tel" name="phone" placeholder="123-456-7890">
+    </label>
+  </fieldset>
+  <fieldset>
+    <label>
+      Email
+      <input type="email" name="email" value="xyz@example.com" disabled>
+      <!-- Turns on the :disabled pseudo-class -->
+      <!-- There is also the :enabled pseudo-class -->
+    </label>
+    <br>
+    <input type="submit" value="Save" disabled>
+  </fieldset>
+  <fieldset>
+    <label>
+      Home Phone
+      <input type="text" name="home_phone" required>
+    </label>
+    <br>
+    <label>
+      Business Phone
+      <input type="text" name="business_phone">
+    </label>
+    <br>
+    <input type="submit" value="Save">
+  </fieldset>
+  <fielset>
+    <input type="tel" value="123-456-7890" name="phone" autocomplete="off">
+    <input type="text" name="full-name" autocpiatlize="words">
+    <!-- autocapitalize is non-standard HTML -->
+    <input type="text" name="full-name" autocorrect="off">
+    <!-- autocorrect is non-stanrdard HTML -->
+  </fielset>
+</body>
